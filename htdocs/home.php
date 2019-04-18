@@ -27,3 +27,4 @@ require './ThinkPHP/ThinkPHP.php';
 
 echo '添加测试代码 _home';
 echo '添加测试代码 _home _ test1分支';
+echo '添加测试代码 _home _ test2 merge demo';
