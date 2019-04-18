@@ -26,6 +26,5 @@ require './ThinkPHP/ThinkPHP.php';
 // 亲^_^ 后面不需要任何代码了 就是如此简单
 
 echo '添加测试代码 _home';
-echo '添加测试代码 _home master ';
-echo '添加测试代码 _home test2_branch ';
-echo '添加测试代码 commit and push';
+echo '添加测试代码 _home _ test1分支';
+echo '添加测试代码 _home _ test1 merge demo';
