@@ -1,0 +1,36 @@
+[ 2017-08-26T05:16:07+08:00 ] 125.119.101.220 //dede/login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Dede
+
+[ 2017-08-26T08:12:46+08:00 ] 123.125.67.166 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:Robots
+
+[ 2017-08-26T09:44:43+08:00 ] 123.125.67.165 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 无法加载模块:Robots
+
+[ 2017-08-26T20:24:54+08:00 ] 222.186.150.41 /zjmydede/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Zjmydede
+
+[ 2017-08-26T20:24:54+08:00 ] 222.186.150.41 /dede/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载模块:Dede
+
+[ 2017-08-26T20:24:54+08:00 ] 222.186.150.41 /dede/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010321s ]
+ERR: 无法加载模块:Dede
+

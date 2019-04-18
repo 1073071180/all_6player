@@ -1,0 +1,91 @@
+[ 2017-06-15T09:08:15+08:00 ] 127.0.0.1 /admin.php/home/Article/article-add.html
+ERR: 模板不存在:./Admin/Home/View/Article/article-add.html
+
+[ 2017-06-15T09:55:27+08:00 ] 127.0.0.1 /admin.php/home/user/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0188s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `admin_user` WHERE `username` = 'admin'  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\UIadmin\Admin\Home\Controller\UserController.class.php 第 82 行.
+NOTIC: [8] Array to string conversion D:\UIadmin\Admin\Home\Controller\UserController.class.php 第 82 行.
+
+[ 2017-06-15T09:57:53+08:00 ] 127.0.0.1 /admin.php/home/user/add
+ERR: 模板不存在:./Admin/Home/View/User/add.html
+
+[ 2017-06-15T10:00:30+08:00 ] 127.0.0.1 /admin.php/home/user/add
+ERR: 模板不存在:./Admin/Home/View/User/add.html
+
+[ 2017-06-15T13:55:29+08:00 ] 113.88.96.168 /admin.php/home/user/login
+ERR: 模板不存在:./Admin/Home/View/User/login.html
+
+[ 2017-06-15T13:59:44+08:00 ] 113.88.96.168 /admin.php/home/user/login
+ERR: 模板不存在:./Admin/Home/View/User/login.html
+
+[ 2017-06-15T14:01:21+08:00 ] 113.88.96.168 /admin.php/home/user/login
+ERR: 模板不存在:./Admin/Home/View/User/login.html
+
+[ 2017-06-15T14:10:36+08:00 ] 113.88.96.168 /admin.php/home/user/login
+ERR: 模板不存在:./Admin/Home/View/User/login.html
+
+[ 2017-06-15T14:13:33+08:00 ] 113.88.96.168 /admin.php/home/user/login
+ERR: 模板不存在:./Admin/Home/View/User/login.html
+
+[ 2017-06-15T14:13:44+08:00 ] 113.88.96.168 /admin.php/home/User/login
+ERR: 模板不存在:./Admin/Home/View/User/login.html
+
+[ 2017-06-15T14:15:26+08:00 ] 113.88.96.168 /admin.php/home/User/login
+ERR: 模板不存在:./Admin/Home/View/User/login.html
+
+[ 2017-06-15T14:15:33+08:00 ] 113.88.96.168 /admin.php/home/User/login
+ERR: 模板不存在:./Admin/Home/View/User/login.html
+
+[ 2017-06-15T14:16:14+08:00 ] 113.88.96.168 /admin.php/home/index/index
+ERR: 模板不存在:./Admin/Home/View/Index/index.html
+
+[ 2017-06-15T14:17:01+08:00 ] 113.88.96.168 /admin.php/home/index/index
+ERR: 模板不存在:./Admin/Home/View/Index/index.html
+
+[ 2017-06-15T14:17:16+08:00 ] 113.88.96.168 /admin.php/home/
+ERR: 模板不存在:./Admin/Home/View/Index/index.html
+
+[ 2017-06-15T14:17:29+08:00 ] 113.88.96.168 /admin.php/
+ERR: 模板不存在:./Admin/Home/View/Index/index.html
+
+[ 2017-06-15T14:17:34+08:00 ] 113.88.96.168 /admin.php/
+ERR: 模板不存在:./Admin/Home/View/Index/index.html
+
+[ 2017-06-15T14:17:37+08:00 ] 113.88.96.168 /admin.php/home/
+ERR: 模板不存在:./Admin/Home/View/Index/index.html
+
+[ 2017-06-15T14:17:38+08:00 ] 113.88.96.168 /admin.php/home/index/index
+ERR: 模板不存在:./Admin/Home/View/Index/index.html
+
+[ 2017-06-15T14:17:47+08:00 ] 113.88.96.168 /admin.php/
+ERR: 模板不存在:./Admin/Home/View/Index/index.html
+
+[ 2017-06-15T14:18:22+08:00 ] 113.88.96.168 /admin.php/
+ERR: 模板不存在:./Admin/Home/View/Index/index.html
+
+[ 2017-06-15T14:23:32+08:00 ] 113.88.96.168 /admin.php/home/MyArticle/MyArticle
+ERR: 无法加载控制器:MyArticle
+
+[ 2017-06-15T14:24:56+08:00 ] 113.88.96.168 /admin.php/home/product/product-add.html
+ERR: 模板不存在:./Admin/Home/View/Product/product-add.html
+
+[ 2017-06-15T14:32:58+08:00 ] 113.88.96.168 /admin.php/home/Article/article-add.html
+ERR: 模板不存在:./Admin/Home/View/Article/article-add.html
+
+[ 2017-06-15T14:33:23+08:00 ] 113.88.96.168 /admin.php/home/Article/article-add.html
+ERR: 模板不存在:./Admin/Home/View/Article/article-add.html
+
+[ 2017-06-15T15:01:24+08:00 ] 113.88.96.168 /admin.php/home/Article/article-add.html
+ERR: 模板不存在:./Admin/Home/View/Article/article-add.html
+
+[ 2017-06-15T15:04:54+08:00 ] 113.88.96.168 /admin.php/home/Article/article-add.html
+ERR: 模板不存在:./Admin/Home/View/Article/article-add.html
+
+[ 2017-06-15T15:40:32+08:00 ] 113.88.96.168 /admin.php/home/Article/article-add.html
+ERR: 模板不存在:./Admin/Home/View/Article/article-add.html
+

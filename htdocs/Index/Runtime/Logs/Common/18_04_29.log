@@ -1,0 +1,6 @@
+[ 2018-04-29T01:13:24+08:00 ] 122.6.152.21 /dede/login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Dede
+

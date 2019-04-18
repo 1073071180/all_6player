@@ -1,0 +1,168 @@
+<!--_meta 作为公共模版分离出去-->
+<include file="Public/Meta" />
+<!--/meta 作为公共模版分离出去-->
+
+
+<!--header 作为公共模版分离出去-->
+<include file="Public/Header" />
+<!--/header 作为公共模版分离出去-->
+
+<!--banner-->
+<div class="banner">
+    <div class="am-g am-container padding-none">
+        <div class="am-u-sm-12 am-u-md-12 am-u-lg-8 padding-none">
+            <div data-am-widget="slider" class="am-slider am-slider-c1" data-am-slider='{"directionNav":false}' >
+                <ul class="am-slides">
+                    <volist name="article0_4" id="msg">
+                        <li>
+                            <img style="width: 866px;height: 450px; " src="/{$msg.picture_url}">
+                            <div class="am-slider-desc">远方 有一个地方 那里种有我们的梦想</div>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+        </div>
+        <div class="am-u-sm-0 am-u-md-0 am-u-lg-4 padding-none lrad">
+            <ul class="am-avg-sm-1 am-avg-md-2 am-avg-lg-1">
+                <volist name="article4_2" id="msg">
+                   <li class="ms"><img style="width: 425px;height: 220px;" src="/{$msg.picture_url}" class="am-img-responsive"></li>
+                </volist>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="am-g am-container padding-none">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-8">
+        <div data-am-widget="list_news" class="am-list-news am-list-news-default ">
+            <div class="am-list-news-bd">
+                <ul class="am-list">
+                    <volist name="article6_10" id="msg">
+                            <li  class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" style="border-top: 0px;">
+                                <div class="am-u-sm-5 am-list-thumb">
+                                    <a href="http://www.douban.com/online/11624755/">
+                                        <img style="width:235px;height: 128px;" src="/{$msg.picture_url}" alt="我最喜欢的一张画"/>
+                                    </a>
+                                </div>
+
+                                <div class=" am-u-sm-7 am-list-main">
+                                    <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">{$msg.article_title}</a></h3>
+                                    <div class="am-list-item-text">你最喜欢的艺术作品，告诉大家它们的------名图画，色彩，交织，撞色，线条雕塑装置当代古代现代作品的照片美我最喜欢的画群296795413进群发画，少说多发图，</div>
+                                </div>
+                            </li>
+                            <div class="newsico am-fr">
+                                <i class="am-icon-clock-o">2016/11/11</i>
+                                <i class="am-icon-hand-pointer-o">12322</i>
+                            </div>
+                        <hr>
+                    </volist>
+                </ul>
+
+                <ul data-am-widget="pagination" class="am-pagination am-pagination-default">
+
+                    <li class="am-pagination-first">
+                        <a href="#" class="am-hide-sm">第一页</a>
+                    </li>
+
+                    <li class="am-pagination-prev ">
+                        <a href="#" class="">上一页</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#" class="am-hide-sm">1</a>
+                    </li>
+                    <li >
+                        <a href="#" class="am-hide-sm">2</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">3</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">4</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">5</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">6</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">7</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">8</a>
+                    </li>
+                    <li class="am-active">
+                        <a href="#">9</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">10</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">11</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">12</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">13</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">14</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">15</a>
+                    </li>
+                    <li>
+                        <a href="#" class="am-hide-sm">16</a>
+                    </li>
+                    <li class="am-pagination-next ">
+                        <a href="#" class="">下一页</a>
+                    </li>
+                    <li class="am-pagination-last ">
+                        <a href="#" class="am-hide-sm">最末页</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="am-u-sm-0 am-u-md-0 am-u-lg-4 am-hide-sm">
+        <div class="tag bgtag">
+            <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default" >
+                <h2 class="am-titlebar-title ">
+                    热门标签
+                </h2>
+            </div>
+            <ul>
+                <li class="active"><a href="#">的房间打开</a></li>
+                <li><a href="#">阿斯达</a></li>
+                <li><a href="#">恩恩</a></li>
+                <li><a href="#">十二分</a></li>
+                <li><a href="#">爱妃</a></li>
+                <li><a href="#">而非</a></li>
+                <li><a href="#">为非</a></li>
+                <li><a href="#">二位</a></li>
+                <li><a href="#">维吾尔</a></li>
+                <li><a href="#">玩儿玩儿</a></li>
+            </ul>
+            <div class="am-cf"></div>
+        </div>
+    </div>
+</div>
+
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
+    <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+
+<!--Footer 作为公共模版分离出去-->
+<include file="Public/Footer" />
+<!--/Footer 作为公共模版分离出去-->
+</body>
+</html>

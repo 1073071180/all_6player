@@ -1,0 +1,54 @@
+[ 2017-08-08T05:14:31+08:00 ] 203.208.60.228 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Robots
+
+[ 2017-08-08T10:57:35+08:00 ] 203.208.60.206 /Upload/HeadPortrait/20170805/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Upload
+
+[ 2017-08-08T15:34:39+08:00 ] 49.65.160.136 //js/close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Js
+
+[ 2017-08-08T15:34:44+08:00 ] 49.65.160.136 //plus/img/wbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Plus
+
+[ 2017-08-08T16:14:38+08:00 ] 192.151.152.122 /blog/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Blog
+
+[ 2017-08-08T16:14:38+08:00 ] 192.151.152.122 /wp/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Wp
+
+[ 2017-08-08T16:14:38+08:00 ] 192.151.152.122 /old/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001975s ]
+ERR: 无法加载模块:Old
+
+[ 2017-08-08T16:14:38+08:00 ] 192.151.152.122 /wordpress/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:Wordpress
+
+[ 2017-08-08T16:14:38+08:00 ] 192.151.152.122 /test/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:Test
+

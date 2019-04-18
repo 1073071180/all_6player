@@ -1,0 +1,205 @@
+<!--_meta 作为公共模版分离出去-->
+<include file="Public/Meta" />
+<!--/meta 作为公共模版分离出去-->
+
+
+<!--header 作为公共模版分离出去-->
+<include file="Public/Header" />
+<!--/header 作为公共模版分离出去-->
+
+
+<div id="category_top" style="background: url(__PUBLIC__/MyImage/article.png)">
+    <div class="am-hide-lg-only kz" id="leftbtn">
+        <i class="am-icon-angle-left" ></i>
+    </div>
+    <div class="am-hide-lg-only kz" style="right:0px;" id="rightbtn">
+        <i class="am-icon-angle-right"></i>
+    </div>
+    <div class="am-container" >
+        <ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-6 am-thumbnails" id="topface">
+            <volist name="users" id="user">
+                <li>
+                    <a href="__APP__/home/category/publicCategory/id/{$user.id}">
+                    <div class="ctl active" style="width: 162px;height: 213px;">
+                        <img style="width: 69px;height: 69px" src=/{$user.picture_url}>
+                        <h3>{$user.username}</h3>
+                        <p>{$user.signature}</p>
+                    </div>
+                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
+                    </a>
+                </li>
+            </volist>
+        </ul>
+    </div>
+</div>
+
+<script>
+    var countnum=5 //一共多少个图 例如6个请输入5
+    $("#leftbtn").click(function(){
+        var temp_href=$("#topface li:eq(0) a").attr("href");
+        var temp_img=$("#topface li:eq(0) img").attr("src");
+        var temp_h3=$("#topface li:eq(0) h3").html();
+        var temp_p=$("#topface li:eq(0) p").html();
+
+        for (i=0; i<countnum; i++){
+            var n=i+1;
+            $("#topface li:eq("+i+") a").attr('href',$("#topface li:eq("+n+") a").attr("href"));
+            $("#topface li:eq("+i+") img").attr('src',$("#topface li:eq("+n+") img").attr("src"));
+            $("#topface li:eq("+i+") h3").html($("#topface li:eq("+n+") h3").html());
+            $("#topface li:eq("+i+") p").html($("#topface li:eq("+n+") p").html());
+        };
+        $("#topface li:eq("+countnum+") a").attr('href',temp_href);
+        $("#topface li:eq("+countnum+") img").attr('src',temp_img);
+        $("#topface li:eq("+countnum+") h3").html(temp_h3);
+        $("#topface li:eq("+countnum+") p").html(temp_p);
+    });
+    $("#rightbtn").click(function(){
+        var temp_href=$("#topface li:eq("+countnum+") a").attr("href");
+        var temp_img=$("#topface li:eq("+countnum+") img").attr("src");
+        var temp_h3=$("#topface li:eq("+countnum+") h3").html();
+        var temp_p=$("#topface li:eq("+countnum+") p").html();
+
+        for (i=countnum; i>0; i--){
+            var n=i-1;
+            $("#topface li:eq("+i+") a").attr('href',$("#topface li:eq("+n+") a").attr("href"));
+            $("#topface li:eq("+i+") img").attr('src',$("#topface li:eq("+n+") img").attr("src"));
+            $("#topface li:eq("+i+") h3").html($("#topface li:eq("+n+") h3").html());
+            $("#topface li:eq("+i+") p").html($("#topface li:eq("+n+") p").html());
+        };
+        $("#topface li:eq(0) a").attr('href',temp_href);
+        $("#topface li:eq(0) img").attr('src',temp_img);
+        $("#topface li:eq(0) h3").html(temp_h3);
+        $("#topface li:eq(0) p").html(temp_p);
+    });
+</script>
+<div id="cattit">
+    <ul class="am-avg-sm-2 am-avg-md-2 am-avg-lg-2">
+        <li><h3><a href="#">合作专栏</a></h3></li>
+        <li  class="active-none"><h3><a href="#">个人专栏</a></h3></li>
+    </ul>
+</div>
+<hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
+<div id="cattlist" class="am-container">
+    <ul class="am-avg-sm-1 am-avg-md-3 am-avg-lg-4">
+        <li>
+            <div class="cattlist_0">
+                <div class="cattlist_1">
+                    <div class="am-g">
+
+                        <div class="am-u-sm-4 am-u-md-5 am-u-lg-5 am-vertical-align">
+                            <div class="am-vertical-align-middle">
+                                <img src="__PUBLIC__/HomeStyle/Temp-images/face1.jpg">
+                            </div>
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-7 am-u-lg-7">
+
+                            <h3>山边小溪</h3>
+                            <h4>AmazeUI</h4>
+                            <p>文章<span>9</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cattlist_2">
+                    <p>
+                        设计的空间发生快，乐十分的骄傲了开发奥斯卡的房间辣椒反馈。发奥斯卡的房间辣椒反馈。设计的空间发生快，
+                    </p>
+                </div>
+                <div class="cattlist_3">
+                    <button type="button" class="am-btn am-btn-warning">
+                        <i class="am-icon-plus"></i>
+                        关注
+                    </button>
+                </div>
+            </div>
+        </li>
+
+    </ul>
+</div>
+
+<div class="am-container" style="margin: 100px auto">
+    <ul data-am-widget="pagination" class="am-pagination am-pagination-default am-text-center">
+
+        <li class="am-pagination-first ">
+            <a href="#" class="">第一页</a>
+        </li>
+
+        <li class="am-pagination-prev ">
+            <a href="#" class="">上一页</a>
+        </li>
+
+
+        <li class="">
+            <a href="#" class="">1</a>
+        </li>
+        <li >
+            <a href="#">2</a>
+        </li>
+        <li class="">
+            <a href="#" class="">3</a>
+        </li>
+        <li class="">
+            <a href="#" class="">4</a>
+        </li>
+        <li class="">
+            <a href="#" class="">5</a>
+        </li>
+        <li class="">
+            <a href="#" class="">6</a>
+        </li>
+        <li class="">
+            <a href="#" class="">7</a>
+        </li>
+        <li class="">
+            <a href="#" class="">8</a>
+        </li>
+        <li class="am-active">
+            <a href="#">9</a>
+        </li>
+        <li class="">
+            <a href="#" class="">10</a>
+        </li>
+        <li class="">
+            <a href="#" class="">11</a>
+        </li>
+        <li class="">
+            <a href="#" class="">12</a>
+        </li>
+        <li class="">
+            <a href="#" class="">13</a>
+        </li>
+        <li class="">
+            <a href="#" class="">14</a>
+        </li>
+        <li class="">
+            <a href="#" class="">15</a>
+        </li>
+        <li class="">
+            <a href="#" class="">16</a>
+        </li>
+
+
+        <li class="am-pagination-next ">
+            <a href="#" class="">下一页</a>
+        </li>
+
+        <li class="am-pagination-last ">
+            <a href="#" class="">最末页</a>
+        </li>
+    </ul>
+</div>
+
+
+
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
+    <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+
+<!--Footer 作为公共模版分离出去-->
+<include file="Public/Footer" />
+<!--/Footer 作为公共模版分离出去-->
+</body>
+</html>

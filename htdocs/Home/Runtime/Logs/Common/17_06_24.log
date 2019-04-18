@@ -1,0 +1,6 @@
+[ 2017-06-24T13:38:17+08:00 ] 113.88.97.133 /home.php/home.php/home/category/publicCategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Home.php
+

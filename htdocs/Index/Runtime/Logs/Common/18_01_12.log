@@ -1,0 +1,18 @@
+[ 2018-01-12T04:13:46+08:00 ] 208.110.66.130 /wp-content/plugins/form-lightbox/readme.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Wp-content
+
+[ 2018-01-12T11:54:55+08:00 ] 123.125.67.162 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+ERR: 无法加载模块:Robots
+
+[ 2018-01-12T17:51:06+08:00 ] 115.192.111.218 //js/close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Js
+

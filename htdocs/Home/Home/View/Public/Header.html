@@ -1,0 +1,185 @@
+<script>
+    //点击时弹出登录框
+    var login = function () {
+        layer.open({
+            type: 2,
+            skin: 'layui-layer-demo', //加上边框
+            area: ['550px','500px'], //宽高
+            shadeClose: true,
+            content:'__APP__/home/User/ajaxLogin'
+        });
+    }
+
+    //ajax异步登录请求
+    var ajaxLogin = function () {
+        var username = $("#username").val();
+        var password = $("#password").val();
+            $.ajax({
+                url:"__APP__?c=User&a=ajaxLogin",
+                type:"POST",
+                data:{
+                    username:username,
+                    password:password,
+                },
+                success:function (result) {
+                    if (result.status == 'success'){
+                       //登录成功，跳转 alert(result.message)
+                        window.location.href="__APP__/home/index/index";
+                    } else {
+                        alert(result.message)
+                    }
+                },
+                error:function (result) {
+                    alert(result.message)
+                }
+            })
+    }
+
+    //点击发布文章时触发请求，检查是否有session 若没有，则 弹出登录框
+    function jump(url){
+      $.ajax({
+          url:"__APP__?c=User&a=ajaxCheck",
+          type:'POST',
+          success:function (result) {
+              if(result.status == '1') {
+                  window.location.href = "__APP__/home/"+url;
+              }else if(result.status == '2'){
+                      //特殊弹窗效果
+                  layer.msg('该功能需要登录，请先登录', function(){
+                      //弹出登录框
+                      login();
+                  });
+              }
+          },
+          error:function () {
+             alert("请求失败");
+          },
+      })
+    }
+
+    //用户修改密码
+    //用户修改资料
+    //根据用户的id异步查询用户的详细信息
+    function updateUser(){
+        layer.confirm('要修个人信息吗？', {
+            btn: ['改密码','改资料','先不了~'] //按钮
+        }, function(index){
+               layer.close(index);
+               layer.prompt({title: '输入原密码，并确认', formType: 1}, function(pass, index){
+                   var password = pass;
+                   $.ajax({
+                       url:"__APP__?c=user&a=selectPassword",
+                       type:"POST",
+                       data:{
+                           password:password,
+                       },
+                       success:function (result) {
+                           if (result.status == 1 ){
+                               alert(result.msg);
+                           }else if(result.status == 2){
+                               layer.close(index);
+                               layer.prompt({title: '输入新密码，并确认', formType: 2}, function(text, index){
+                                   layer.close(index);
+                                   var newPassword = text;
+                                   $.ajax({
+                                       url:"__APP__?c=user&a=uploadPassword",
+                                       type:"POST",
+                                       data:{
+                                           password:newPassword,
+                                       },
+                                       success:function (result) {
+                                           if (result.status == 1){   //修改失败
+                                               layer.msg(result.msg+'，新密码不能与原密码相同');
+                                           }else if (result.status == 2){
+                                               layer.msg(result.msg);
+                                           }else if(result.status == 10){  //修改成功
+                                               layer.msg('您的密码已改为：'+text+'，请牢记！');
+                                           }
+                                       },
+                                       error:function () {
+                                           alert('请求失败');
+                                       },
+                                   });
+                               });
+                           };
+                       },
+                       error:function () {
+                           alert('请求失败');
+                       },
+                   });
+
+               });
+           },
+            function(index){
+                layer.open({
+                    type: 2,
+                    skin: 'layui-layer-demo', //加上边框
+                    area: ['450px','500px'], //宽高
+                    shadeClose: true,
+                    content:'__APP__/home/User/uploadMsg'
+                });
+            },
+
+            function() {
+            layer.msg('也可以这样', {
+                time: 20000, //20s后自动关闭
+                btn: ['明白了', '知道了']
+            });
+        })
+
+
+
+
+    }
+</script>
+<body style="background:url(__PUBLIC__/MyImage/background2.jpg);background-attachment:fixed">
+<header style="background:url(__PUBLIC__/MyImage/header.png)" class="am-topbar am-topbar-fixed-top wos-header">
+    <div class="am-container">
+        <h1 class="am-topbar-brand">
+            <a href="#"><img src="__PUBLIC__/HomeStyle/images/logo.png" alt=""></a>
+        </h1>
+
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-warning am-show-sm-only"
+                data-am-collapse="{target: '#collapse-head'}">
+            <span class="am-sr-only">导航切换</span>
+            <span class="am-icon-bars"></span>
+        </button>
+
+        <div class="am-collapse am-topbar-collapse" id="collapse-head">
+            <ul class="am-nav am-nav-pills am-topbar-nav">
+                <li  <eq name="Think.const.CONTROLLER_NAME" value="Index">class="am-active"</eq>><a href="__APP__/home/index/index">首页</a></li>
+                <li <eq name="Think.const.CONTROLLER_NAME" value="Article">class="am-active"</eq>><a href="__APP__/home/article/article">资讯</a></li><!--显示文章列表-->
+                <li <eq name="Think.const.CONTROLLER_NAME" value="Category">class="am-active"</eq>><a href="__APP__/home/category/category">专栏</a></li>
+                <li <eq name="Think.const.CONTROLLER_NAME" value="Events">class="am-active"</eq>><a href="__APP__/home/events/events">活动</a></li>
+                <!--发布文章和我的专栏 需要访问控制 调用jump-->
+                <li <eq name="Think.const.CONTROLLER_NAME" value="Release">class="am-active"</eq>><a href="#" onclick="jump('release/release')">发布文章</a></li>
+                <li <eq name="Think.const.CONTROLLER_NAME" value="MyArticle">class="am-active"</eq>><a href="#" onclick="jump('MyArticle/MyArticle')">我的专栏</a></li>
+
+            </ul>
+
+            <div class="am-topbar-right">
+                <empty name="Think.session.id">
+                    <a href="__APP__/home/user/add"><button class="am-btn am-btn-default am-topbar-btn am-btn-sm"><span class="am-icon-pencil"></span> 注册</button></a>
+                        <else />
+                    <a style="color: #fbffff" href="__APP__/home/user/logout">退出</a>
+                </empty>
+            </div>
+
+            <div class="am-topbar-right">
+                <empty name="Think.session.id">
+                    <button class="am-btn am-btn-danger am-topbar-btn am-btn-sm" onclick="login()"><span class="am-icon-user"></span> 登录</button>
+                    <else/>
+                    <div ><a style="color: #3f6dff" href="javascript:;" onclick="updateUser()">欢迎您：{$Think.session.user.username}</a></div>
+                </empty>
+            </div>
+
+            <div class="am-topbar-right">
+                <empty name="Think.session.id">
+
+                    <else />
+                    <a href="javascript:;" onclick="updateUser()"><img src="/{$Think.session.user.picture}" style="width:40px;height:40px;border-radius:50%; overflow:hidden;" alt="头像为空"></a>
+                </empty>
+            </div>
+        </div>
+    </div>
+</header>

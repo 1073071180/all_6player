@@ -1,0 +1,141 @@
+<!--_meta 作为公共模版分离出去-->
+<include file="Public/Meta" />
+<!--/meta 作为公共模版分离出去-->
+
+
+<!--header 作为公共模版分离出去-->
+<include file="Public/Header" />
+<!--/header 作为公共模版分离出去-->
+
+
+<div class="category2top" style="background:url(/Public/MyImage/article.png);">
+    <div class="am-g am-container userinfo">
+        <div class="am-u-sm-12 am-u-md-12 am-u-lg-5 userinfo_left">
+            <div class="am-g">
+                <div class="am-u-md-12 am-u-lg-6 userface">
+                    <img style="width: 175px;height: 175px" src="/{$users.picture_url}">
+                </div>
+                <div class="am-u-md-12 am-u-lg-6 userin">
+                    <h3>{$users.username}</h3>
+                    <h4>{$users.signature}</h4>
+                    <p>文章数:<span>{$number.count(*)}</span></p>
+                    <button type="button" class="am-btn am-btn-warning am-hide-lg-only" style="margin: 0 auto; margin-top: 30px">
+                        <i class="am-icon-plus"></i>
+                        订阅
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        <div class="am-u-sm-0 am-u-md-12 am-u-lg-4 am-show-lg-only userinfo_center">
+            {$users.logion}
+        </div>
+        <div class="am-u-sm-12 am-u-md-12 am-u-lg-3 am-show-lg-only userinfo_right">
+                <button type="button" class="am-btn am-btn-warning">
+                    <i class="am-icon-plus"></i>
+                    订阅
+                </button>
+        </div>
+
+    </div>
+</div>
+
+    <div class="am-g">
+        <div class="am-u-sm-0 am-u-md-2 am-u-lg-3">&nbsp;</div>
+        <div class="am-u-sm-12 am-u-md-8 am-u-lg-6">
+            <div data-am-widget="list_news" class="am-list-news am-list-news-default ">
+                <div class="am-list-news-bd">
+                    <ul class="am-list">
+
+                        <volist name="articles" id="article">
+                            <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" style="border-top: 0px">
+                                <div class="am-u-sm-5 am-list-thumb">
+                                    <a href="__APP__/Home/news/news/id/{$article.id}">
+                                        <img style="width: 360px;height: 180px" src=/{$article.picture_url} alt="我最喜欢的一张画"/>
+                                    </a>
+                                </div>
+                         ---------------------------------------------------------------------------------------------------------------------------------------
+                                <div class=" am-u-sm-7 am-list-main">
+                                    <h3 class="am-list-item-hd"><a href="__APP__/Home/news/news/id/{$article.id}">{$article.article_title}</a></h3>
+
+                                    <div class="am-list-item-text">{$article.content}</div>
+
+                                </div>
+                            </li>
+                        </volist>
+                            <div class="newsico am-fr">
+                                <i class="am-icon-clock-o">2016/11/11</i>
+                                <i class="am-icon-hand-pointer-o">12322</i>
+                            </div>
+
+
+
+                    </ul>
+                    <ul data-am-widget="pagination" class="am-pagination am-pagination-default" style="text-align: center">
+
+                        <li class="am-pagination-first ">
+                            <a href="#" class="">第一页</a>
+                        </li>
+
+                        <li class="am-pagination-prev ">
+                            <a href="#" class="">上一页</a>
+                        </li>
+
+
+                        <li class="">
+                            <a href="#" class="">1</a>
+                        </li>
+                        <li >
+                            <a href="#">2</a>
+                        </li>
+                        <li class="">
+                            <a href="#" class="">3</a>
+                        </li>
+                        <li class="">
+                            <a href="#" class="">4</a>
+                        </li>
+                        <li class="">
+                            <a href="#" class="">5</a>
+                        </li>
+                        <li class="">
+                            <a href="#" class="">6</a>
+                        </li>
+                        <li class="">
+                            <a href="#" class="">7</a>
+                        </li>
+                        <li class="">
+                            <a href="#" class="">8</a>
+                        </li>
+                        <li class="am-active">
+                            <a href="#">9</a>
+                        </li>
+
+
+                        <li class="am-pagination-next ">
+                            <a href="#" class="">下一页</a>
+                        </li>
+
+                        <li class="am-pagination-last ">
+                            <a href="#" class="">最末页</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="am-u-sm-0 am-u-md-2 am-u-lg-3">&nbsp;</div>
+    </div>
+
+
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
+    <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+
+<!--Footer 作为公共模版分离出去-->
+<include file="Public/Footer" />
+<!--/Footer 作为公共模版分离出去-->
+</body>
+</html>

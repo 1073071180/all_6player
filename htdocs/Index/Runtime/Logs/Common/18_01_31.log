@@ -1,0 +1,42 @@
+[ 2018-01-31T10:09:36+08:00 ] 123.125.67.226 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+ERR: 无法加载模块:Robots
+
+[ 2018-01-31T11:20:18+08:00 ] 185.106.121.32 /wp/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+ERR: 无法加载模块:Wp
+
+[ 2018-01-31T11:20:18+08:00 ] 185.106.121.32 /blog/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载模块:Blog
+
+[ 2018-01-31T11:20:18+08:00 ] 185.106.121.32 /wordpress/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Wordpress
+
+[ 2018-01-31T11:20:18+08:00 ] 185.106.121.32 /old/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022273s ]
+ERR: 无法加载模块:Old
+
+[ 2018-01-31T11:20:18+08:00 ] 185.106.121.32 /test/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Test
+
+[ 2018-01-31T21:09:11+08:00 ] 203.208.60.231 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Robots
+

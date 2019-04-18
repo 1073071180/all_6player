@@ -1,0 +1,18 @@
+[ 2017-10-08T12:01:23+08:00 ] 222.186.57.24 /mgpcdede/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+ERR: 无法加载模块:Mgpcdede
+
+[ 2017-10-08T12:01:24+08:00 ] 222.186.57.24 /dede/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载模块:Dede
+
+[ 2017-10-08T12:01:24+08:00 ] 222.186.57.24 /dede/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载模块:Dede
+

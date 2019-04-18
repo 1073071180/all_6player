@@ -1,0 +1,343 @@
+[ 2018-07-26T11:06:57+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2018-07-26T11:07:06+08:00 ] 127.0.0.1 /home.php/home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2018-07-26T11:07:09+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2018-07-26T11:08:52+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2018-07-26T11:08:53+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2018-07-26T11:08:54+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2018-07-26T11:08:55+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2018-07-26T11:08:55+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2018-07-26T11:08:58+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2018-07-26T11:12:27+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY click_number desc LIMIT 4   [ RunTime:0.0093s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 4   [ RunTime:0.0075s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 4,4   [ RunTime:0.0081s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 8,8   [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `user` LIMIT 0,6   [ RunTime:0.0074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-07-26T11:12:31+08:00 ] 127.0.0.1 /home.php/Home/news/news/id/42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0096s ]
+SQL: SELECT `click_number` FROM `article` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0091s ]
+SQL: UPDATE `article` SET `click_number`='171' WHERE `id` = 42 [ RunTime:0.0089s ]
+SQL: SELECT * FROM `article` WHERE `id` = 42 AND `article_type` = 3 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2018-07-26T11:12:39+08:00 ] 127.0.0.1 /home.php/Home/news/news/id/60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0073s ]
+SQL: SELECT `click_number` FROM `article` WHERE `id` = 60 LIMIT 1   [ RunTime:0.0080s ]
+SQL: UPDATE `article` SET `click_number`='58' WHERE `id` = 60 [ RunTime:0.0078s ]
+SQL: SELECT * FROM `article` WHERE `id` = 60 AND `article_type` = 3 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-07-26T11:13:41+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY click_number desc LIMIT 4   [ RunTime:0.0118s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 4   [ RunTime:0.0128s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 4,4   [ RunTime:0.0104s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 8,8   [ RunTime:0.0211s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `user` LIMIT 0,6   [ RunTime:0.0098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-07-26T11:13:49+08:00 ] 127.0.0.1 /home.php?c=User&a=ajaxCheck
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+
+[ 2018-07-26T11:13:52+08:00 ] 127.0.0.1 /home.php/home/User/ajaxLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000285s ]
+
+[ 2018-07-26T14:14:16+08:00 ] 127.0.0.1 /home.php/Home/news/news/id/55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0078s ]
+SQL: SELECT `click_number` FROM `article` WHERE `id` = 55 LIMIT 1   [ RunTime:0.0065s ]
+SQL: UPDATE `article` SET `click_number`='49' WHERE `id` = 55 [ RunTime:0.0061s ]
+SQL: SELECT * FROM `article` WHERE `id` = 55 AND `article_type` = 3 AND `is_delete` = 0 LIMIT 1   [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2018-07-26T14:26:08+08:00 ] 127.0.0.1 /home.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY click_number desc LIMIT 4   [ RunTime:0.0102s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 4   [ RunTime:0.0102s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 4,4   [ RunTime:0.0111s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 8,8   [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `user` LIMIT 0,6   [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-07-26T14:27:21+08:00 ] 127.0.0.1 /oss.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007128s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY click_number desc LIMIT 4   [ RunTime:0.0085s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 4   [ RunTime:0.0096s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 4,4   [ RunTime:0.0085s ]
+SQL: SELECT * FROM `article` WHERE `article_type` = 3 AND `is_delete` = 0 ORDER BY create_time asc LIMIT 8,8   [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user` LIMIT 0,6   [ RunTime:0.0083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+NOTIC: [8] Undefined variable: user D:\Project\6player\htdocs\Home\Runtime\Cache\Home\76fa5d91061b37f679ea44f50ab94989.php 第 300 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+

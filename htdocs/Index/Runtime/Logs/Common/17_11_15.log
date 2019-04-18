@@ -1,0 +1,48 @@
+[ 2017-11-15T10:30:18+08:00 ] 211.149.155.4 /tvmgdede/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015883s ]
+ERR: 无法加载模块:Tvmgdede
+
+[ 2017-11-15T10:30:19+08:00 ] 211.149.155.4 /dede/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载模块:Dede
+
+[ 2017-11-15T10:30:19+08:00 ] 211.149.155.4 /dede/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+ERR: 无法加载模块:Dede
+
+[ 2017-11-15T10:30:19+08:00 ] 211.149.155.4 /sldeadmin/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载模块:Sldeadmin
+
+[ 2017-11-15T10:30:19+08:00 ] 211.149.155.4 /admin/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-11-15T10:30:20+08:00 ] 211.149.155.4 /admin/inc/grouplist.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-11-15T11:25:35+08:00 ] 211.103.82.133 /Application/Home/View/Home/images/modal-bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:Application
+
+[ 2017-11-15T11:25:35+08:00 ] 211.103.82.133 /Index/Home/View/Index/css/overlays/02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Index
+

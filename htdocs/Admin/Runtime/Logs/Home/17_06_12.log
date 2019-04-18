@@ -1,0 +1,155 @@
+[ 2017-06-12T09:24:14+08:00 ] 127.0.0.1 /index.php/home/user/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\UIadmin\Application\Home\Controller\UserController.class.php 第 77 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) D:\UIadmin\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'aaa'  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+NOTIC: [8] Array to string conversion D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+
+[ 2017-06-12T09:29:41+08:00 ] 127.0.0.1 /index.php/home/Article/article-add.html
+ERR: 非法操作:article-add
+
+[ 2017-06-12T09:30:16+08:00 ] 127.0.0.1 /index.php/home/Article/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2017-06-12T09:30:17+08:00 ] 127.0.0.1 /index.php/home/Article/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2017-06-12T09:30:17+08:00 ] 127.0.0.1 /index.php/home/Article/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2017-06-12T09:30:18+08:00 ] 127.0.0.1 /index.php/home/Article/articleList
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002823s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2017-06-12T09:47:29+08:00 ] 127.0.0.1 /index.php/home/user/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\UIadmin\Application\Home\Controller\UserController.class.php 第 77 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) D:\UIadmin\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'aaa'  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+NOTIC: [8] Array to string conversion D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+
+[ 2017-06-12T09:47:59+08:00 ] 127.0.0.1 /index.php/home/user/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\UIadmin\Application\Home\Controller\UserController.class.php 第 77 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) D:\UIadmin\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0173s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'aaa'  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+NOTIC: [8] Array to string conversion D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+
+[ 2017-06-12T10:50:27+08:00 ] 127.0.0.1 /index.php/home/user/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\UIadmin\Application\Home\Controller\UserController.class.php 第 77 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) D:\UIadmin\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0174s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'aaa'  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+NOTIC: [8] Array to string conversion D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+
+[ 2017-06-12T11:04:36+08:00 ] 127.0.0.1 /index.php/home/user/userlist
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002466s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\UIadmin\Application\Home\Controller\UserController.class.php 第 77 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::select() should be compatible with Think\Model::select($options = Array) D:\UIadmin\Application\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `user` WHERE `user_name` = 'aaa'  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+NOTIC: [8] Array to string conversion D:\UIadmin\Application\Home\Controller\UserController.class.php 第 81 行.
+
+[ 2017-06-12T15:02:36+08:00 ] 127.0.0.1 /index.php/home/product/undefined.html
+ERR: 非法操作:undefined
+
+[ 2017-06-12T15:50:56+08:00 ] 127.0.0.1 /index.php/home/feedback/feedbackList
+ERR: 无法加载控制器:Feedback
+
+[ 2017-06-12T18:01:08+08:00 ] 127.0.0.1 /admin.php/Home/User/dologin
+ERR: Think\Model:select_user方法不存在！
+
+[ 2017-06-12T18:01:11+08:00 ] 127.0.0.1 /admin.php/Home/User/dologin
+ERR: Think\Model:select_user方法不存在！
+
+[ 2017-06-12T18:02:05+08:00 ] 127.0.0.1 /admin.php/Home/User/dologin
+ERR: Think\Model:selectuser方法不存在！
+
+[ 2017-06-12T18:03:56+08:00 ] 127.0.0.1 /admin.php/Home/User/dologin
+ERR: Think\Model:selectuser方法不存在！
+
+[ 2017-06-12T18:03:58+08:00 ] 127.0.0.1 /admin.php/Home/User/dologin
+ERR: Think\Model:selectuser方法不存在！
+
+[ 2017-06-12T18:04:45+08:00 ] 127.0.0.1 /admin.php/Home/User/dologin
+ERR: Think\Model:selectuser方法不存在！
+

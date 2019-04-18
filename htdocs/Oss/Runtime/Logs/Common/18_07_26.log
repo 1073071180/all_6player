@@ -1,0 +1,36 @@
+[ 2018-07-26T14:44:12+08:00 ] 127.0.0.1 /oss.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+ERR: 无法加载模块:Index
+
+[ 2018-07-26T14:45:53+08:00 ] 127.0.0.1 /oss.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Index
+
+[ 2018-07-26T14:45:53+08:00 ] 127.0.0.1 /oss.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 无法加载模块:Index
+
+[ 2018-07-26T14:45:53+08:00 ] 127.0.0.1 /oss.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+ERR: 无法加载模块:Index
+
+[ 2018-07-26T18:08:00+08:00 ] 127.0.0.1 /oss.php/oss/ajaxupload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Oss
+
+[ 2018-07-26T18:09:57+08:00 ] 127.0.0.1 /oss.php/oss/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+ERR: 无法加载模块:Oss
+

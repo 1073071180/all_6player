@@ -1,0 +1,30 @@
+[ 2018-01-09T06:16:57+08:00 ] 185.106.121.32 /blog/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载模块:Blog
+
+[ 2018-01-09T06:16:57+08:00 ] 185.106.121.32 /wp/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Wp
+
+[ 2018-01-09T06:16:57+08:00 ] 185.106.121.32 /old/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+ERR: 无法加载模块:Old
+
+[ 2018-01-09T06:16:57+08:00 ] 185.106.121.32 /wordpress/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 无法加载模块:Wordpress
+
+[ 2018-01-09T06:16:58+08:00 ] 185.106.121.32 /test/wp-admin/setup-config.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:Test
+
