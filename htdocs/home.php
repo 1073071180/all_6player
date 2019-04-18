@@ -24,3 +24,5 @@ define('APP_PATH','./Home/');
 require './ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
+
+echo '添加测试代码 _home';
