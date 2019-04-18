@@ -27,4 +27,4 @@ require './ThinkPHP/ThinkPHP.php';
 
 echo '添加测试代码 _home';
 echo '添加测试代码 _home master ';
-echo '添加测试代码 _home';
+echo '添加测试代码 _home test2_branch';
