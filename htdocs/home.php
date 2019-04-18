@@ -28,4 +28,4 @@ require './ThinkPHP/ThinkPHP.php';
 echo '添加测试代码 _home';
 echo '添加测试代码 _home master ';
 echo '添加测试代码 _home test2_branch ';
-echo '添加测试代码 commit and push  ';
+echo '添加测试代码 commit and push';
